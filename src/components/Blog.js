@@ -5,6 +5,9 @@ import styled from "styled-components";
 function Blog() {
 	const pic = data.products;
 	const Styles = styled.div`
+		width: 100%;
+		height: 100%;
+
 		h1 {
 			color: #1e293b;
 			text-align: center;
