@@ -5,13 +5,11 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import background from "./assets/background.jpg";
 import ProductScreen from "./components/ProductScreen";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
 function App() {
-	const style = { backgroundImage: `url(${background})` };
 	return (
 		<>
 			<BrowserRouter>
