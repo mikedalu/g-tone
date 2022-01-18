@@ -37,13 +37,29 @@ function Blog() {
 			flex-wrap: wrap;
 			p {
 				color: #1e293b;
-				width: 500px;
+				width: 100%;
 				word-spacing: 5px;
 			}
 			img {
 				height: auto;
-				width: 30%;
+				width: 100%;
 			}
+			@media (min-width: 560px) {
+				flex-direction: column;
+				p {
+					width: 60%;
+					align-self: center;
+				}
+				img {
+					height: auto;
+					width: 60%;
+					align-self: center;
+				}
+			}
+		}
+		.section {
+			align-items: center;
+			justify-content: center;
 		}
 	`;
 	return (
